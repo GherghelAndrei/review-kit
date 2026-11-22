@@ -1,0 +1,21 @@
+diff --git a/stats.py b/stats.py
+index 3b1c2aa..7d4e9f1 100644
+--- a/stats.py
++++ b/stats.py
+@@ -1,6 +1,16 @@
+ def total(values):
+     return sum(values)
+
+
++def average(values):
++    """Return the arithmetic mean of values."""
++    return total(values) / len(values)
++
++
++def top_n(values, n):
++    """Return the n largest values, largest first."""
++    return sorted(values)[-n:]
++
++
+ def clamp(value, low, high):
+     return max(low, min(value, high))

@@ -1,0 +1,9 @@
+{
+  "name": "review-kit",
+  "description": "Review a local branch against main, or a PR by number or URL, and report verified findings grouped by severity",
+  "version": "0.1.0",
+  "author": {
+    "name": "Andrei Gherghel"
+  },
+  "license": "MIT"
+}

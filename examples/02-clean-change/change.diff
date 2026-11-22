@@ -1,0 +1,16 @@
+diff --git a/greeting.js b/greeting.js
+index 1a2b3c4..5d6e7f8 100644
+--- a/greeting.js
++++ b/greeting.js
+@@ -1,8 +1,8 @@
+-function greet(n) {
+-  if (!n) {
++function greet(name) {
++  if (!name) {
+     return "Hello!";
+   }
+-  return "Hello, " + n + "!";
++  return `Hello, ${name}!`;
+ }
+
+ module.exports = { greet };

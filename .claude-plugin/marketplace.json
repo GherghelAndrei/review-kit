@@ -1,0 +1,14 @@
+{
+  "name": "review-kit",
+  "description": "Code review skills for Claude Code: verified findings, grouped by severity, optionally posted as one PR comment",
+  "owner": {
+    "name": "Andrei Gherghel"
+  },
+  "plugins": [
+    {
+      "name": "review-kit",
+      "source": "./plugins/review-kit",
+      "description": "Review a local branch against main, or a PR by number or URL, and report verified findings grouped by severity"
+    }
+  ]
+}
